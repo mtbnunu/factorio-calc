@@ -1,0 +1,18 @@
+{
+  "copper_wire": {
+    "speed": 0.25,
+    "ingredients": { "copper": 1 }
+  },
+  "green_circuit": {
+    "speed": 0.5,
+    "ingredients": { "iron": 1, "copper_wire": 3 }
+  },
+  "red_circuit": {
+    "speed": 6,
+    "ingredients": { "plastic": 2, "copper_wire": 4, "green_circuit": 2 }
+  },
+  "blue_circuit": {
+    "speed": 10,
+    "ingredients": { "green_circuit": 20, "red_circuit": 2, "sulfuric_acid": 5 }
+  }
+}
